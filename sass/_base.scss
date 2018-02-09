@@ -1,6 +1,34 @@
 [class*="col-"]{
   min-height: 1px;
 }
-body{
-    background-color: grey;
+
+.boxes-bg{
+    padding: 15px;
+   margin: 15px;
+   background-color: rgb(211, 211, 211); 
+   border: 1px solid black;
+}
+
+.font-size-xs{
+   font-size: 20px;
+  
+}
+.font-size-s{
+    font-size: 24px;
+    
+}
+.font-size-m{
+    font-size: 28px;
+     
+}
+.font-size-l{
+    font-size: 32px;
+     
+}
+.font-size-xl{
+    font-size: 36px;
+
+}
+.hidden{
+    display: none;
 }
