@@ -3,7 +3,9 @@ document.addEventListener('DOMContentLoaded', ()=>{
 const bar = document.querySelector('.fa-bars');
 const navig = document.querySelector('.navigation');
 const ul = document.querySelector('.navigation>ul')
+const li=ul.querySelectorAll('li')
 const a = ul.querySelectorAll('li>a')
+
 console.log (a)
 
 
@@ -16,7 +18,8 @@ bar.addEventListener('click', ()=>{
          for (let i=0; i<a.length; i++){
           a[i].style.textDecoration='none';
           a[i].style.color='black';
-          a[i].style.marginBottom='10vh';
+          li[i].style.paddingBottom='4vh';
+          li[i].style.paddingLeft='2vw'
          
          }   
      }else{

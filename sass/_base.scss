@@ -5,29 +5,13 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.boxes-bg {
-  padding: 15px;
-  margin: 15px;
-  background-color: rgb(211, 211, 211);
-  border: 1px solid black;
+body {
+  padding-top: 150px;
+  display: flex;
+  justify-content: center;
 }
 
-.font-size-xs {
-  font-size: 20px;
-}
-.font-size-s {
-  font-size: 24px;
-}
-.font-size-m {
-  font-size: 28px;
-}
-.font-size-l {
-  font-size: 32px;
-}
-.font-size-xl {
-  font-size: 36px;
-}
-
+// header 
 
 .header {
   display: flex;
@@ -82,16 +66,25 @@
   }
 }
 
-body {
-  padding-top: 150px;
-  display: flex;
-  justify-content: center;
-}
+
+
+// section 1
 
 .aktualnosci{
+  margin-top: 10vh;
+  
+   ul li{
+   list-style-type: none;
+   padding-bottom: 4vh;
+   font-size: 2.5em
+
+
+   }
+   @media(max-width:$gridBreakPoint){
     ul{
         display: none;
     }
+}
 }
 
 .hidden {
@@ -107,4 +100,104 @@ body {
   width: 100vw;
 }
 
+.generalInfo{
+  margin-bottom: 6vh;
+  text-align: justify;
  
+  img{
+    margin-bottom: 6vh;
+  }
+}
+
+// section2 employees
+
+.employee1 {
+  margin-bottom: 2vh;
+  h3{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+  }
+  img{
+    width: 80%;
+    margin-left: 2vw;
+  }
+  p{
+    text-align: justify;
+    padding-right: 2vw;
+  }
+  p:last-of-type{
+    margin-top: 1vh;
+  }
+  ul{
+    li{
+      list-style-type: none;
+      margin-top: 1vh;
+    }
+  }
+}
+ 
+.employee2{
+  margin-bottom: 2vh;
+  h3{
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    text-align: center;
+
+  }
+  img{
+    width: 80%;
+    margin-left: 2vw;
+  }
+   p{
+    text-align: justify;
+    padding-right: 2vw;
+  }
+  p:last-of-type{
+    margin-top: 1vh;
+  }
+  ul{
+    li{
+      list-style-type: none;
+      margin-top: 1vh;
+    }
+  }
+}
+.employees{
+  text-align:justify;
+  padding-right: 3vh;
+  
+  margin-bottom: 2vh;
+  h3{
+    text-align:center;
+    
+  }
+}
+
+
+
+
+// section 3 offers 
+
+.boxes-bg {
+  padding: 15px;
+  margin: 15px;
+  background-color: rgb(211, 211, 211);
+  border: 1px solid black;
+}
+
+.font-size-xs {
+  font-size: 20px;
+}
+.font-size-s {
+  font-size: 24px;
+}
+.font-size-m {
+  font-size: 28px;
+}
+.font-size-l {
+  font-size: 32px;
+}
+.font-size-xl {
+  font-size: 36px;
+}
