@@ -77,7 +77,6 @@ body {
 .aktualnosci{
   margin-top: 10vh;
   padding-right: 4vw;
-  
    ul li{
    list-style-type: none;
    margin-bottom: 4vh;
@@ -85,12 +84,10 @@ body {
    
    font-size: 2.5em;
    border-bottom: solid 1px black;
-  
    }
    ul li:hover{
      border-bottom: 3px solid black;
    }
-
    @media(max-width:$gridBreakPoint){
     ul{
         display: none;
@@ -113,16 +110,15 @@ body {
 
 .generalInfo{
   margin-bottom: 6vh;
-  h3{
-    text-align: center;
-  }
+  text-align: center;
   img{
     margin-bottom: 6vh; 
-    width: 90%;
-    padding-left: 3vw;
+    width: 90%; 
   }
   p{
     text-align: justify;
+    padding-left: 2vw;
+    
   }
 }
 
@@ -141,17 +137,20 @@ body {
     width: 80%;
    
   }
-  p{
-    text-align: justify;
-    padding-right: 2vw;
-    padding-left: 2vw;
-  }
   p:first-of-type{
     text-align: center;
     //border-bottom: 3px solid black;
    text-decoration: underline;
    padding-bottom: 3vh;
   }
+  div{
+  p{
+    text-align: justify;
+    padding-right: 2vw;
+    padding-left: 2vw;
+  }
+}
+  
   p:last-of-type{
     margin-top: 1vh;
   }
@@ -165,23 +164,14 @@ body {
  
 .employee2{
   margin-bottom: 2vh;
-  
   text-align: center;
   h3{
     margin-top: 2vh;
     margin-bottom: 2vh;
-   
-
   }
   img{
     width: 80%;
-    //margin-left: 2vw;
-    
-  }
-   p{
-    text-align: justify;
-    padding-right: 2vw;
-    padding-left: 2vw;
+    //margin-left: 2vw;  
   }
   p:first-of-type{
     text-align: center;
@@ -189,6 +179,14 @@ body {
    text-decoration: underline;
    padding-bottom: 3vh;
   }
+  div{
+   p{
+    text-align: justify;
+    padding-right: 2vw;
+    padding-left: 2vw;
+  }
+}
+ 
   p:last-of-type{
     margin-top: 1vh;
   }
@@ -202,16 +200,12 @@ body {
 .employees{
   text-align:justify;
   padding-right: 3vh;
-  
   margin-bottom: 2vh;
   h3{
     text-align:center;
     
   }
 }
-
-
-
 
 // section 3 offers 
 
